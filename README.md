@@ -1,2 +1,6 @@
-# Online-store
-An e-commerce build node, mongodb and express
+# MyStore
+> e-commerce website with Node.js
+
+
+
+
