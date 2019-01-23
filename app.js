@@ -30,7 +30,7 @@ const user = process.env.DB_USERNAME
 const password = process.env.DB_PASSWORD
 
 
-mongoose.connect( process.env.MONGODB_URI || `mongodb://tunji:olatunji123@ds163044.mlab.com:63044/stores`, { useNewUrlParser: true }).then(
+mongoose.connect( process.env.MONGODB_URI || `mongodb://tunji:olatunji123@ds163044.mlab.com:63044/stores`).then(
   ()=>{
     console.log("connected to mongoDB")},
  (err)=>{
